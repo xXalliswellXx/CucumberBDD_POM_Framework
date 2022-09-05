@@ -26,15 +26,15 @@ public class NavigationBarElements extends BasePOM {
     private WebElement feesButton;
 
     public void navigateToCountriesPage() {
-        setupButton.click();
-        parametersButton.click();
-        countriesButton.click();
+        waitUntilVisibleAndClickableThenClick(setupButton);
+        waitUntilVisibleAndClickableThenClick(parametersButton);
+        waitUntilVisibleAndClickableThenClick(countriesButton);
     }
 
     public void navigateToCitizenshipPage() {
-        setupButton.click();
-        parametersButton.click();
-        citizenshipButton.click();
+        waitUntilVisibleAndClickableThenClick(setupButton);
+        waitUntilVisibleAndClickableThenClick(parametersButton);
+        waitUntilVisibleAndClickableThenClick(citizenshipButton);
     }
 
     public void navigateToFeesPage() {
