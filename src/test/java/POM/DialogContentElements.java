@@ -68,7 +68,7 @@ public class DialogContentElements extends BasePOM{
     }
 
     public void editCountry() {
-        nameSearchInput.sendKeys("KorayTestCountry111");
+        nameSearchInput.sendKeys("KorayTestCountry999");
         searchButton.click();
         editButton.click();
         nameInput.clear();
